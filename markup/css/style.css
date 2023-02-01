@@ -1,21 +1,21 @@
 table {
-    border: double;
+    /* border: double; */
     width: 500px;
     height: 200px;
     text-align: center;
 }
 
-td {
+/* td {
     border-top: double;
     border-right: double;
-}
+} */
 
 th {
     background-color: rgb(104, 163, 230);
 }
 
 .cell {
-    border-top: none;
+    /* border-top: none; */
     background-color: rgb(104, 163, 230);
 }
 
@@ -24,12 +24,12 @@ th {
 }
 
 td[rowspan="3"] {
-    border-right: none;
+    /* border-right: none; */
     background-color: yellow;
 }
 
 td[colspan="3"] {
-    border-right: none;
+    /* border-right: none; */
     background-color: yellow;
 }
 
